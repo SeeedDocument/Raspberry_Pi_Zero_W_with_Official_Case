@@ -8,7 +8,7 @@ wikiurl: http://seeed.wiki/Raspberry_Pi_Zero_W_with_Official_Case
 sku: 110991026
 ---
 
-![](图1)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/1.jpg)
 
 2015 年 11 月，树莓派实验室发布了小巧的 5 美元入门级树莓派 Raspberry Pi Zero。与原来的 Model A 相比，它足够便宜。
 
@@ -66,7 +66,7 @@ Zero W 通过将更多功能集成到核心产品中，解决了这个问题。�
 
 本指南介绍如何在不需要连接键盘/鼠标/监视器的情况下使用 Raspberry Pi Zero 或 Zero W。感谢 Adafruit 提供的指南。基本设置将通过在首次启动之前使用您的 PC 上的编辑器直接在 SD 卡上编辑文本文件进行配置。
 
-![](图2)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/2.jpg)
 
 !!!Note
     在本指南中，Pi Zero 同时代表 Zero 和 Zero W。
@@ -89,13 +89,13 @@ Pi Zero 没有太多闪烁的 LED 给您一种温馨的感觉，它正在工作�
 !!!Note
     没有安装 SD 卡，USB 线缆插在 USB 端口，并且没有灯。
 
-![](图3)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/3.jpg)
 
 以下是Windows PC 显示的内容 :
 
-![](图4)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/4.png)
 
-![](图5)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/5.png)
 
 ### 安装操作系统
 
@@ -109,7 +109,7 @@ Pi Zero 没有太多闪烁的 LED 给您一种温馨的感觉，它正在工作�
 
 您生活在一个整个操作系统可以在小于您的指尖的塑料薄片上运行的世界。而且您可以在一台 5 美元 (或 10 美元) 的计算机上运行，这台计算机足够小，甚至可以放在杂志封面上。意不意外，惊不惊喜。
 
-![](图6)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/6.jpg)
 
 ### 文本文件编辑
 
@@ -148,7 +148,7 @@ network={
 
 名为 config.txt 的文件已经存在，我们将要编辑它的内容。我们将在底部添加一些文本以启用 GPIO 引脚上的 UART。
 
-![](图7)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/7.jpg)
 
 在文本编辑器中打开文件，并在底部添加以下文本。
 
@@ -159,7 +159,7 @@ enable_uart=1
 
 像这样 :
 
-![](图8)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/8.jpg)
 
 ### 启用 SSH
 
@@ -171,17 +171,17 @@ SSH 默认启用，但之后 (2016 年 11 月) 默认关闭。这是由于安全
 
 完成上述步骤后，您应该在 SD 卡中的 boot folder 中包含以下文件。
 
-![](图9)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/9.jpg)
 
 从计算机取出 SD 卡并将其安装在 Pi Zero 中。
 
-![](图10)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/10.jpg)
 
 ### 赋予 Pi Zero 生命
 
 现在上电，插入 SD 卡后，如图所示，通过 USB 线缆向 POWER IN 接口供电。
 
-![](图11)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/11.jpg)
 
 可以看到绿色的 LED 灯有所反应。这意味着 Pi Zero 找到了一个适用的操作系统映像并且正在启动。
 
@@ -191,7 +191,7 @@ SSH 默认启用，但之后 (2016 年 11 月) 默认关闭。这是由于安全
 ping -c 3 raspberrypi.local
 ```
 
-![](图12)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/12.jpg)
 
 您也应该能够通过 SSH 访问 Pi Zero。
 
@@ -201,7 +201,7 @@ ssh pi@raspberrypi.local
 
 默认密码是 raspberry。
 
-![](图13)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/13.png)
 
 ### 建议的初始设置
 
@@ -222,11 +222,11 @@ sudo apt-get upgrade
 sudo raspi-config
 ```
 
-![](图14)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/14.png)
 
 这将弹出主菜单。
 
-![](图15)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/15.png)
 
 现在可以将密码更改为非默认密码。您还可以执行其他操作，例如更改时区，键盘布局，主机名等。
 
@@ -236,21 +236,21 @@ SPI 和 I2C 在很多项目中都会使用，但默认情况下是禁用的。�
 
 SPI
 
-![](图16)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/16.png)
 
-![](图17)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/17.png)
 
-![](图18)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/18.png)
 
-![](图19)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/19.png)
 
 I2C
 
-![](图20)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/20.png)
 
-![](图21)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/21.png)
 
-![](图22)
+![](https://github.com/SeeedDocument/Raspberry_Pi_Zero_W_with_Official_Case/raw/master/img/22.png)
 
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Raspberry_Pi_Relay_Board_v1.0 -->
